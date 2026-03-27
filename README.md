@@ -19,7 +19,7 @@ This project predicts diabetes using Logistic Regression.
 - Matplotlib
 
 ## Inference
-The Logistic Regression model gives ~75% accuracy
-It performs well for non-diabetic prediction
-It struggles slightly with detecting diabetic cases
-Glucose is the most influential feature
+The Logistic Regression model gives ~75% accuracy.
+It performs well for non-diabetic prediction.
+It struggles slightly with detecting diabetic cases.
+Glucose is the most influential feature.
