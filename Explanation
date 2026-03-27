@@ -1,0 +1,27 @@
+## Confusion Matrix Explanation
+[[82 17]
+ [21 34]]
+
+82 (True Negatives) : Correctly predicted non-diabetic patients
+34 (True Positives) : Correctly predicted diabetic patients
+17 (False Positives) : Predicted diabetic, but actually not diabetic
+21 (False Negatives) : Predicted non-diabetic, but actually diabetic
+
+##Accuracy
+The model achieved an accuracy of 75.32%
+This means the model correctly predicted diabetes outcome for about 75 out of 100 patients
+
+##Visualization Insights
+1.Heatmap
+Glucose (0.49) has the highest correlation with Outcome
+BMI (0.31) and Age (0.24) also influence diabetes
+2.Boxplot (Glucose vs Outcome)
+Diabetic patients have higher glucose levels
+Confirms glucose is a strong predictor
+
+##Overall Conclusion
+The Logistic Regression model gives ~75% accuracy
+It performs well for non-diabetic prediction
+It struggles slightly with detecting diabetic cases
+Glucose is the most influential feature
+
